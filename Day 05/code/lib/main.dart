@@ -4,13 +4,13 @@ import 'signUp.dart';
 import 'logIn.dart';
 //import 'package:prefs/prefs.dart';
 
-
 //SharedPreferences prefs;
- void main() {
+void main() {
 //prefs = await SharedPreferences.getInstance();
-runApp(new MaterialApp(
-  title: "FormValidation",
-  home: signup(),
-  
-)) ; 
+  runApp(
+    const MaterialApp(
+      title: "FormValidation",
+      home: Signup(),
+    ),
+  );
 }
